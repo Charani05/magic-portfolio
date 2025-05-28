@@ -32,7 +32,7 @@ export default function About() {
     {
       title: about.intro.title,
       display: about.intro.display,
-      items: [],
+      items: [ ],
     },
     {
       title: about.work.title,
@@ -74,7 +74,7 @@ export default function About() {
           gap="32"
           hide="s"
         >
-          <TableOfContents structure={structure} about={about} />
+          {/* <TableOfContents structure={structure} about={about} /> */}
         </Column>
       )}
       <Flex fillWidth mobileDirection="column" horizontal="center">
